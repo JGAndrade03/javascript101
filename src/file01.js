@@ -5,14 +5,14 @@
  * Referencia: https://javascript.info/strict-mode
  */
 
-"use strict";
+"use strictMode";
 
 /** 
  * TO-DO: 
  * Importe la función setTitle desde el archivo functions.js.
  * Referencia: https://javascript.info/import-export
  */
-
+import { setTitle } from "./functions.js"
 
 
 /** 
@@ -22,7 +22,11 @@
  * Referencia: https://javascript.info/variables
  */
 
+var pageTitle = "Datos Comparativos";
+let pageID = "title";
+
 
 
 // TO-DO: Llama a la función setTitle para establecer el contenido del elemento HTML con el ID especificado
 
+setTitle(pageID, pageTitle);
