@@ -22,7 +22,7 @@ import { setTitle } from "./functions.js"
  * Referencia: https://javascript.info/variables
  */
 
-var pageTitle = "Datos Comparativos";
+var pageTitle = "Datos Comparativos de frameworks JavaScript modernos";
 let pageID = "title";
 
 
